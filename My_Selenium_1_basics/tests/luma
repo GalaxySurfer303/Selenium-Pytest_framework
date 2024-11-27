@@ -1,0 +1,1185 @@
+versions pytest-8.3.3, python-3.13.0.final.0
+invocation_dir=/Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests
+cwd=/Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests
+args=('-v', '--debug=luma')
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x1061b23c0>
+    pytest_plugin_registered [hook]
+        plugin: <Session  exitstatus='<UNSET>' testsfailed=0 testscollected=0>
+        plugin_name: session
+        manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x1061b23c0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x1062596a0>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x106258ec0>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: faulthandler [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: pdb [assertion]
+    early skip of rewriting module: cmd [assertion]
+    early skip of rewriting module: code [assertion]
+    early skip of rewriting module: codeop [assertion]
+    early skip of rewriting module: rlcompleter [assertion]
+    early skip of rewriting module: readline [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x105853770>
+          plugin_name: 4387583856
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x1061b23c0>
+          plugin_name: pytestconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/mark/__init__.py'>
+          plugin_name: mark
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/main.py'>
+          plugin_name: main
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/runner.py'>
+          plugin_name: runner
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/fixtures.py'>
+          plugin_name: fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/helpconfig.py'>
+          plugin_name: helpconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/python.py'>
+          plugin_name: python
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/terminal.py'>
+          plugin_name: terminal
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/debugging.py'>
+          plugin_name: debugging
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/unittest.py'>
+          plugin_name: unittest
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/capture.py'>
+          plugin_name: capture
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/skipping.py'>
+          plugin_name: skipping
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/legacypath.py'>
+          plugin_name: legacypath
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/tmpdir.py'>
+          plugin_name: tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/monkeypatch.py'>
+          plugin_name: monkeypatch
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/recwarn.py'>
+          plugin_name: recwarn
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/pastebin.py'>
+          plugin_name: pastebin
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/assertion/__init__.py'>
+          plugin_name: assertion
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/junitxml.py'>
+          plugin_name: junitxml
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/doctest.py'>
+          plugin_name: doctest
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/cacheprovider.py'>
+          plugin_name: cacheprovider
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/freeze_support.py'>
+          plugin_name: freeze_support
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/setuponly.py'>
+          plugin_name: setuponly
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/setupplan.py'>
+          plugin_name: setupplan
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/stepwise.py'>
+          plugin_name: stepwise
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/warnings.py'>
+          plugin_name: warnings
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/logging.py'>
+          plugin_name: logging
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/reports.py'>
+          plugin_name: reports
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python_path' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/python_path.py'>
+          plugin_name: python_path
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/unraisableexception.py'>
+          plugin_name: unraisableexception
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/threadexception.py'>
+          plugin_name: threadexception
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/faulthandler.py'>
+          plugin_name: faulthandler
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=5 _state='suspended' tmpfile=<EncodedFile name="<_io.FileIO name=6 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=7 _state='suspended' tmpfile=<EncodedFile name="<_io.FileIO name=8 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=3 _state='started' tmpfile=<_io.TextIOWrapper name='/dev/null' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          plugin_name: capturemanager
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'conftest' from '/Users/peterklejment/PycharmProjects/My_Selenium_1_basics/conftest.py'>
+          plugin_name: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/conftest.py
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          plugin_name: session
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x1062596a0>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x106258ec0>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x10687a7b0>
+          plugin_name: terminalreporter
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x10687aa50>
+          plugin_name: logging-plugin
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x105853770>
+          plugin_name: 4387583856
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x1061b23c0>
+          plugin_name: pytestconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/mark/__init__.py'>
+          plugin_name: mark
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/main.py'>
+          plugin_name: main
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/runner.py'>
+          plugin_name: runner
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/fixtures.py'>
+          plugin_name: fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/helpconfig.py'>
+          plugin_name: helpconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/python.py'>
+          plugin_name: python
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/terminal.py'>
+          plugin_name: terminal
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/debugging.py'>
+          plugin_name: debugging
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/unittest.py'>
+          plugin_name: unittest
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/capture.py'>
+          plugin_name: capture
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/skipping.py'>
+          plugin_name: skipping
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/legacypath.py'>
+          plugin_name: legacypath
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/tmpdir.py'>
+          plugin_name: tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/monkeypatch.py'>
+          plugin_name: monkeypatch
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/recwarn.py'>
+          plugin_name: recwarn
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/pastebin.py'>
+          plugin_name: pastebin
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/assertion/__init__.py'>
+          plugin_name: assertion
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/junitxml.py'>
+          plugin_name: junitxml
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/doctest.py'>
+          plugin_name: doctest
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/cacheprovider.py'>
+          plugin_name: cacheprovider
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/freeze_support.py'>
+          plugin_name: freeze_support
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/setuponly.py'>
+          plugin_name: setuponly
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/setupplan.py'>
+          plugin_name: setupplan
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/stepwise.py'>
+          plugin_name: stepwise
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/warnings.py'>
+          plugin_name: warnings
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/logging.py'>
+          plugin_name: logging
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/reports.py'>
+          plugin_name: reports
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python_path' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/python_path.py'>
+          plugin_name: python_path
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/unraisableexception.py'>
+          plugin_name: unraisableexception
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/threadexception.py'>
+          plugin_name: threadexception
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/faulthandler.py'>
+          plugin_name: faulthandler
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=5 _state='suspended' tmpfile=<EncodedFile name="<_io.FileIO name=6 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=7 _state='suspended' tmpfile=<EncodedFile name="<_io.FileIO name=8 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=3 _state='started' tmpfile=<_io.TextIOWrapper name='/dev/null' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          plugin_name: capturemanager
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'conftest' from '/Users/peterklejment/PycharmProjects/My_Selenium_1_basics/conftest.py'>
+          plugin_name: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/conftest.py
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          plugin_name: session
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x1062596a0>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x106258ec0>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x10687a7b0>
+          plugin_name: terminalreporter
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x10687aa50>
+          plugin_name: logging-plugin
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x10687b380>
+          plugin_name: funcmanage
+          manager: <_pytest.config.PytestPluginManager object at 0x105853770>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x1061b23c0>
+          start_path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests
+          startdir: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests
+      finish pytest_report_header --> [['rootdir: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics', 'configfile: pytest.ini'], 'cachedir: .pytest_cache', ['using: pytest-8.3.3']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    perform_collect <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['/Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        processing argument CollectionArgument(path=PosixPath('/Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests'), parts=[], module_name=None) [collection]
+            pytest_collect_directory [hook]
+                path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics
+                parent: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+            finish pytest_collect_directory --> <Dir My_Selenium_1_basics> [hook]
+            pytest_collectstart [hook]
+                collector: <Dir My_Selenium_1_basics>
+            finish pytest_collectstart --> [] [hook]
+            pytest_make_collect_report [hook]
+                collector: <Dir My_Selenium_1_basics>
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x1061b23c0>
+                  collection_path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/.DS_Store
+                  path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/.DS_Store
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir My_Selenium_1_basics>
+                  file_path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/.DS_Store
+                  path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/.DS_Store
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x1061b23c0>
+                  collection_path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/.git
+                  path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/.git
+              finish pytest_ignore_collect --> True [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x1061b23c0>
+                  collection_path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/.idea
+                  path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/.idea
+              finish pytest_ignore_collect --> True [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x1061b23c0>
+                  collection_path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/.pytest_cache
+                  path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/.pytest_cache
+              finish pytest_ignore_collect --> True [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x1061b23c0>
+                  collection_path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/.venv
+                  path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/.venv
+              finish pytest_ignore_collect --> True [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x1061b23c0>
+                  collection_path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/PlayGround_demos2
+                  path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/PlayGround_demos2
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/PlayGround_demos2
+                  parent: <Dir My_Selenium_1_basics>
+              finish pytest_collect_directory --> <Dir PlayGround_demos2> [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x1061b23c0>
+                  collection_path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/__pycache__
+                  path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/__pycache__
+              finish pytest_ignore_collect --> True [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x1061b23c0>
+                  collection_path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/conftest.py
+                  path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/conftest.py
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir My_Selenium_1_basics>
+                  file_path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/conftest.py
+                  path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/conftest.py
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x1061b23c0>
+                  collection_path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/main.py
+                  path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/main.py
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir My_Selenium_1_basics>
+                  file_path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/main.py
+                  path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/main.py
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x1061b23c0>
+                  collection_path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/pages
+                  path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/pages
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/pages
+                  parent: <Dir My_Selenium_1_basics>
+              finish pytest_collect_directory --> <Dir pages> [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x1061b23c0>
+                  collection_path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/pytest.ini
+                  path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/pytest.ini
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir My_Selenium_1_basics>
+                  file_path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/pytest.ini
+                  path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/pytest.ini
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x1061b23c0>
+                  collection_path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/requirements.txt
+                  path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/requirements.txt
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir My_Selenium_1_basics>
+                  file_path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/requirements.txt
+                  path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/requirements.txt
+              finish pytest_collect_file --> [] [hook]
+              pytest_collect_directory [hook]
+                  path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests
+                  parent: <Dir My_Selenium_1_basics>
+              finish pytest_collect_directory --> <Dir tests> [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x1061b23c0>
+                  collection_path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/utils
+                  path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/utils
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/utils
+                  parent: <Dir My_Selenium_1_basics>
+              finish pytest_collect_directory --> <Package utils> [hook]
+            finish pytest_make_collect_report --> <CollectReport '.' lenresult=4 outcome='passed'> [hook]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=1 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=1 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Dir tests> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir tests>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir tests>
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x1061b23c0>
+            collection_path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests/.DS_Store
+            path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests/.DS_Store
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir tests>
+            file_path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests/.DS_Store
+            path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests/.DS_Store
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x1061b23c0>
+            collection_path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests/__pycache__
+            path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests/__pycache__
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x1061b23c0>
+            collection_path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests/luma
+            path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests/luma
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir tests>
+            file_path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests/luma
+            path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests/luma
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x1061b23c0>
+            collection_path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests/test_01_create_account.py
+            path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests/test_01_create_account.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir tests>
+            file_path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests/test_01_create_account.py
+            path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests/test_01_create_account.py
+          pytest_pycollect_makemodule [hook]
+              parent: <Dir tests>
+              module_path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests/test_01_create_account.py
+              path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests/test_01_create_account.py
+          finish pytest_pycollect_makemodule --> <Module test_01_create_account.py> [hook]
+        finish pytest_collect_file --> [<Module test_01_create_account.py>] [hook]
+        pytest_ignore_collect [hook]
+            config: <_pytest.config.Config object at 0x1061b23c0>
+            collection_path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests/test_02_women_order1.py
+            path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests/test_02_women_order1.py
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            parent: <Dir tests>
+            file_path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests/test_02_women_order1.py
+            path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests/test_02_women_order1.py
+          pytest_pycollect_makemodule [hook]
+              parent: <Dir tests>
+              module_path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests/test_02_women_order1.py
+              path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests/test_02_women_order1.py
+          finish pytest_pycollect_makemodule --> <Module test_02_women_order1.py> [hook]
+        finish pytest_collect_file --> [<Module test_02_women_order1.py>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests' lenresult=2 outcome='passed'> [hook]
+    genitems <Module test_01_create_account.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_01_create_account.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_01_create_account.py>
+      find_module called for: test_01_create_account [assertion]
+      matched test file '/Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests/test_01_create_account.py' [assertion]
+      found cached rewritten pyc for /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests/test_01_create_account.py [assertion]
+      early skip of rewriting module: click [assertion]
+      early skip of rewriting module: click.core [assertion]
+      early skip of rewriting module: click.types [assertion]
+      early skip of rewriting module: click._compat [assertion]
+      early skip of rewriting module: click.exceptions [assertion]
+      early skip of rewriting module: click.utils [assertion]
+      early skip of rewriting module: click.globals [assertion]
+      early skip of rewriting module: click.formatting [assertion]
+      early skip of rewriting module: click.parser [assertion]
+      early skip of rewriting module: click.termui [assertion]
+      early skip of rewriting module: click.decorators [assertion]
+      early skip of rewriting module: pages [assertion]
+      early skip of rewriting module: pages.account_page [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_01_create_account.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_01_create_account.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/assertion/rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_01_create_account.py>
+            name: time
+            obj: <module 'time' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_01_create_account.py>
+            name: password_option
+            obj: <function password_option at 0x1069d1bc0>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_01_create_account.py>
+            name: AccountPage
+            obj: <class 'pages.account_page.AccountPage'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_01_create_account.py>
+            name: random
+            obj: <module 'random' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/random.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_01_create_account.py>
+            name: string
+            obj: <module 'string' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/string.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_01_create_account.py>
+            name: pytest
+            obj: <module 'pytest' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/pytest/__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_01_create_account.py>
+            name: generate_random_email
+            obj: <function generate_random_email at 0x10692f380>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_01_create_account.py>
+            name: generate_random_first_name
+            obj: <function generate_random_first_name at 0x1069d1e40>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_01_create_account.py>
+            name: test_create_account
+            obj: <function test_create_account at 0x1069d2020>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x10694aba0>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_create_account>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_01_create_account.py>
+            name: test_log_in
+            obj: <function test_log_in at 0x1069d2700>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x106960190>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_log_in>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/test_01_create_account.py' lenresult=2 outcome='passed'> [hook]
+    genitems <Function test_create_account> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_create_account>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_log_in> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_log_in>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/test_01_create_account.py' lenresult=2 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Module test_02_women_order1.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_02_women_order1.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_02_women_order1.py>
+      find_module called for: test_02_women_order1 [assertion]
+      matched test file '/Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests/test_02_women_order1.py' [assertion]
+      found cached rewritten pyc for /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests/test_02_women_order1.py [assertion]
+      early skip of rewriting module: pages.womens_stuff_page [assertion]
+      early skip of rewriting module: selenium.webdriver.support.ui [assertion]
+      early skip of rewriting module: selenium.webdriver.support.select [assertion]
+      early skip of rewriting module: selenium.webdriver.support.wait [assertion]
+      early skip of rewriting module: selenium.webdriver.support.expected_conditions [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_02_women_order1.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_02_women_order1.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/_pytest/assertion/rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_02_women_order1.py>
+            name: WomensPage
+            obj: <class 'pages.womens_stuff_page.WomensPage'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_02_women_order1.py>
+            name: DiscountCode
+            obj: <class 'pages.womens_stuff_page.DiscountCode'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_02_women_order1.py>
+            name: ShoppingCart
+            obj: <class 'pages.womens_stuff_page.ShoppingCart'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_02_women_order1.py>
+            name: random
+            obj: <module 'random' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/random.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_02_women_order1.py>
+            name: string
+            obj: <module 'string' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/string.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_02_women_order1.py>
+            name: time
+            obj: <module 'time' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_02_women_order1.py>
+            name: pytest
+            obj: <module 'pytest' from '/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages/pytest/__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_02_women_order1.py>
+            name: test_women_order
+            obj: <function test_women_order at 0x10692ed40>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x106962350>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_women_order>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_02_women_order1.py>
+            name: test_discount_code_operation
+            obj: <function test_discount_code_operation at 0x1069d27a0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x1069c5480>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_discount_code_operation>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_02_women_order1.py>
+            name: test_shopping_cart_and_finish
+            obj: <function test_shopping_cart_and_finish at 0x1069d28e0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x1069c5480>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_shopping_cart_and_finish>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/test_02_women_order1.py' lenresult=3 outcome='passed'> [hook]
+    genitems <Function test_women_order> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_women_order>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_discount_code_operation> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_discount_code_operation>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_shopping_cart_and_finish> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_shopping_cart_and_finish>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/test_02_women_order1.py' lenresult=3 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests' lenresult=2 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collection_modifyitems [hook]
+          session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          config: <_pytest.config.Config object at 0x1061b23c0>
+          items: [<Function test_create_account>, <Function test_log_in>, <Function test_women_order>, <Function test_discount_code_operation>, <Function test_shopping_cart_and_finish>]
+      finish pytest_collection_modifyitems --> [] [hook]
+      pytest_collection_finish [hook]
+          session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        pytest_report_collectionfinish [hook]
+            config: <_pytest.config.Config object at 0x1061b23c0>
+            items: [<Function test_create_account>, <Function test_log_in>, <Function test_women_order>, <Function test_discount_code_operation>, <Function test_shopping_cart_and_finish>]
+            start_path: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests
+            startdir: /Users/peterklejment/PycharmProjects/My_Selenium_1_basics/tests
+        finish pytest_report_collectionfinish --> [] [hook]
+      finish pytest_collection_finish --> [] [hook]
+    finish pytest_collection --> None [hook]
+    pytest_runtestloop [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=5>
+      pytest_runtest_protocol [hook]
+          item: <Function test_create_account>
+          nextitem: <Function test_log_in>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_01_create_account.py::test_create_account
+            location: ('tests/test_01_create_account.py', 19, 'test_create_account')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_create_account>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='driver' scope='session' baseid=''>
+              request: <SubRequest 'driver' for <Function test_create_account>>
+          early skip of rewriting module: _sysconfigdata__darwin_darwin [assertion]
+          early skip of rewriting module: _osx_support [assertion]
+          early skip of rewriting module: encodings.idna [assertion]
+          early skip of rewriting module: stringprep [assertion]
+          finish pytest_fixture_setup --> <selenium.webdriver.chrome.webdriver.WebDriver (session="2c5296f46704f3b632b8170b5f07d074")> [hook]
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_create_account>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_01_create_account.py::test_create_account' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_01_create_account.py::test_create_account' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_01_create_account.py::test_create_account' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1061b23c0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_create_account>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_create_account>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_create_account>
+            call: <CallInfo when='call' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_01_create_account.py::test_create_account' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_01_create_account.py::test_create_account' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_01_create_account.py::test_create_account' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1061b23c0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_create_account>
+            nextitem: <Function test_log_in>
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_create_account>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_01_create_account.py::test_create_account' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_01_create_account.py::test_create_account' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_01_create_account.py::test_create_account' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1061b23c0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_01_create_account.py::test_create_account
+            location: ('tests/test_01_create_account.py', 19, 'test_create_account')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_log_in>
+          nextitem: <Function test_women_order>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_01_create_account.py::test_log_in
+            location: ('tests/test_01_create_account.py', 46, 'test_log_in')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_log_in>
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_log_in>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_01_create_account.py::test_log_in' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_01_create_account.py::test_log_in' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_01_create_account.py::test_log_in' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1061b23c0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_log_in>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_log_in>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_log_in>
+            call: <CallInfo when='call' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_01_create_account.py::test_log_in' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_01_create_account.py::test_log_in' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_01_create_account.py::test_log_in' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1061b23c0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_log_in>
+            nextitem: <Function test_women_order>
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_log_in>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_01_create_account.py::test_log_in' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_01_create_account.py::test_log_in' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_01_create_account.py::test_log_in' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1061b23c0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_01_create_account.py::test_log_in
+            location: ('tests/test_01_create_account.py', 46, 'test_log_in')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_women_order>
+          nextitem: <Function test_discount_code_operation>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_02_women_order1.py::test_women_order
+            location: ('tests/test_02_women_order1.py', 9, 'test_women_order')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_women_order>
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_women_order>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_02_women_order1.py::test_women_order' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_02_women_order1.py::test_women_order' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_02_women_order1.py::test_women_order' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1061b23c0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_women_order>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_women_order>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_women_order>
+            call: <CallInfo when='call' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_02_women_order1.py::test_women_order' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_02_women_order1.py::test_women_order' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_02_women_order1.py::test_women_order' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1061b23c0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_women_order>
+            nextitem: <Function test_discount_code_operation>
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_women_order>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_02_women_order1.py::test_women_order' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_02_women_order1.py::test_women_order' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_02_women_order1.py::test_women_order' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1061b23c0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_02_women_order1.py::test_women_order
+            location: ('tests/test_02_women_order1.py', 9, 'test_women_order')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_discount_code_operation>
+          nextitem: <Function test_shopping_cart_and_finish>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_02_women_order1.py::test_discount_code_operation
+            location: ('tests/test_02_women_order1.py', 15, 'test_discount_code_operation')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_discount_code_operation>
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_discount_code_operation>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_02_women_order1.py::test_discount_code_operation' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_02_women_order1.py::test_discount_code_operation' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_02_women_order1.py::test_discount_code_operation' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1061b23c0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_discount_code_operation>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_discount_code_operation>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_discount_code_operation>
+            call: <CallInfo when='call' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_02_women_order1.py::test_discount_code_operation' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_02_women_order1.py::test_discount_code_operation' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_02_women_order1.py::test_discount_code_operation' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1061b23c0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_discount_code_operation>
+            nextitem: <Function test_shopping_cart_and_finish>
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_discount_code_operation>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_02_women_order1.py::test_discount_code_operation' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_02_women_order1.py::test_discount_code_operation' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_02_women_order1.py::test_discount_code_operation' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1061b23c0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_02_women_order1.py::test_discount_code_operation
+            location: ('tests/test_02_women_order1.py', 15, 'test_discount_code_operation')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_shopping_cart_and_finish>
+          nextitem: None
+        pytest_runtest_logstart [hook]
+            nodeid: tests/test_02_women_order1.py::test_shopping_cart_and_finish
+            location: ('tests/test_02_women_order1.py', 20, 'test_shopping_cart_and_finish')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_shopping_cart_and_finish>
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_shopping_cart_and_finish>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_02_women_order1.py::test_shopping_cart_and_finish' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_02_women_order1.py::test_shopping_cart_and_finish' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_02_women_order1.py::test_shopping_cart_and_finish' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1061b23c0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_shopping_cart_and_finish>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_shopping_cart_and_finish>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_shopping_cart_and_finish>
+            call: <CallInfo when='call' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_02_women_order1.py::test_shopping_cart_and_finish' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_02_women_order1.py::test_shopping_cart_and_finish' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_02_women_order1.py::test_shopping_cart_and_finish' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1061b23c0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_shopping_cart_and_finish>
+            nextitem: None
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='driver' scope='session' baseid=''>
+              request: <SubRequest 'driver' for <Function test_create_account>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_shopping_cart_and_finish>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/test_02_women_order1.py::test_shopping_cart_and_finish' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/test_02_women_order1.py::test_shopping_cart_and_finish' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/test_02_women_order1.py::test_shopping_cart_and_finish' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x1061b23c0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/test_02_women_order1.py::test_shopping_cart_and_finish
+            location: ('tests/test_02_women_order1.py', 20, 'test_shopping_cart_and_finish')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    finish pytest_runtestloop --> True [hook]
+    pytest_sessionfinish [hook]
+        session: <Session  exitstatus=0 testsfailed=0 testscollected=5>
+        exitstatus: 0
+      pytest_terminal_summary [hook]
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x10687a7b0>
+          exitstatus: 0
+          config: <_pytest.config.Config object at 0x1061b23c0>
+      finish pytest_terminal_summary --> [] [hook]
+    finish pytest_sessionfinish --> [] [hook]
+    pytest_unconfigure [hook]
+        config: <_pytest.config.Config object at 0x1061b23c0>
+    finish pytest_unconfigure --> [] [hook]
