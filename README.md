@@ -7,8 +7,11 @@ About the Project
 
 The test site used for this project is: https://magento.softwaretestingboard.com, which is specifically designed for testing automation purposes. However, as expected from a testing environment, the site contains several bugs and inconsistencies.
 
-Current Status (as of November 27, 2024)
 
+
+=====================================================================================================================================================================
+Current Status (as of November 27, 2024) - commit 1
+=====================================================================================================================================================================
 	•	I have implemented a full end-to-end test for placing an order, covering the entire workflow from product selection to checkout.
 	•	Unfortunately, the test currently lacks comprehensive assert functions to verify all expected results. Most assertions are limited to checking links and the pages being opened. It should ideally also validate the discount code amounts and final totals.
 	•	Despite these gaps, the test is fully functional and completes the end-to-end process successfully.
@@ -37,3 +40,23 @@ In future iterations, I plan to:
 Closing Note
 
 This project is a starting point in my journey toward mastering test automation frameworks. There’s still much to refine and expand, but it represents my first step into end-to-end automated testing. Thank you for visiting this repository, and I look forward to improving further!
+
+
+
+=====================================================================================================================================================================
+Current Status (as of November 27, 2024) - commit 2
+=====================================================================================================================================================================
+
+Update: Debug File
+
+	•	A luma debug file has been added to the tests directory.
+	•	This file is specifically used for debugging pytest issues during the test runs.
+	•	It contains logs and information to help identify errors or unexpected behavior in the testing process.
+
+
+
+
+
+
+
+ 
