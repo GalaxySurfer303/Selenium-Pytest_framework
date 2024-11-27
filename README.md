@@ -9,9 +9,9 @@ The test site used for this project is: https://magento.softwaretestingboard.com
 
 
 
-=====================================================================================================================================================================
+===================================================
 Current Status (as of November 27, 2024) - commit 1
-=====================================================================================================================================================================
+===================================================
 	•	I have implemented a full end-to-end test for placing an order, covering the entire workflow from product selection to checkout.
 	•	Unfortunately, the test currently lacks comprehensive assert functions to verify all expected results. Most assertions are limited to checking links and the pages being opened. It should ideally also validate the discount code amounts and final totals.
 	•	Despite these gaps, the test is fully functional and completes the end-to-end process successfully.
@@ -43,9 +43,9 @@ This project is a starting point in my journey toward mastering test automation 
 
 
 
-=====================================================================================================================================================================
+===================================================
 Current Status (as of November 27, 2024) - commit 2
-=====================================================================================================================================================================
+===================================================
 
 Update: Debug File
 
